@@ -91,6 +91,10 @@ ul {
   padding-left: 48px;
 }
 
+.contact-list-item .contact-tel {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 320px) {
   .container {
     width: 320px;
@@ -262,8 +266,15 @@ ul {
   .contact-list-item:not(:last-child) {
     margin-bottom: 0;
   }
-  .copyright-box {
-    padding-left: 40px;
+  .contact-list-item .contact-tel {
+    margin-left: 237px;
+  }
+  .contact-list-item .sign-instagram {
+    margin-left: 48px;
+  }
+  .contact-tel {
+    font-size: 24px;
+    line-height: 1.2;
   }
 }
 
@@ -302,8 +313,12 @@ ul {
     font-size: 14px;
     line-height: 1.21;
   }
-  .copyright-box {
-    padding-left: 183px;
+  .contact-list-item .logo {
+    margin-left: 183px;
+  }
+  .contact-tel {
+    font-size: 30px;
+    line-height: 1.23;
   }
 }
 /*# sourceMappingURL=main.css.map */
