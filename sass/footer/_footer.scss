@@ -74,6 +74,8 @@ ul {
 .contact-list-item {
   .contact-tel {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 320px) {
@@ -201,9 +203,10 @@ ul {
   .contact-form-input {
     width: 390px;
   }
-  .contact-list {
+  .contact-box {
     display: flex;
     justify-content: flex-start;
+    align-content: center;
     margin: 0 auto;
   }
   .contact-box {
