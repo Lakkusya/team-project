@@ -93,6 +93,12 @@ ul {
 
 .contact-list-item .contact-tel {
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (min-width: 320px) {
@@ -254,11 +260,24 @@ ul {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0 auto;
   }
   .contact-box {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .contact-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contact-list-item .logo {
     margin-left: 40px;
@@ -266,8 +285,20 @@ ul {
   .contact-list-item:not(:last-child) {
     margin-bottom: 0;
   }
+  .contact-list-item .icon-phone {
+    margin-right: 10px;
+  }
   .contact-list-item .contact-tel {
     margin-left: 237px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contact-list-item .sign-instagram {
     margin-left: 48px;
@@ -316,9 +347,16 @@ ul {
   .contact-list-item .logo {
     margin-left: 183px;
   }
+  .contact-list-item .contact-tel {
+    margin-left: 290px;
+  }
   .contact-tel {
     font-size: 30px;
     line-height: 1.23;
+  }
+  .contact-box {
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
 }
 /*# sourceMappingURL=main.css.map */
