@@ -93,7 +93,7 @@ ul {
         rgba(17, 21, 24, 0.7),
         rgba(17, 21, 24, 0.7)
       ),
-      url(/image/footer_back_320.png);
+      url(../image/footer_back_320.png);
   }
 
   .footer-title {
@@ -183,7 +183,7 @@ ul {
         rgba(17, 21, 24, 0.7),
         rgba(17, 21, 24, 0.7)
       ),
-      url(/image/footer_back_768.jpg);
+      url(../image/footer_back_768.jpg);
   }
 
   .footer-title {
@@ -234,11 +234,27 @@ ul {
       display: inline-flex;
       justify-content: center;
       align-items: center;
+      padding-right: 24px;
     }
   }
   .contact-list-item {
     .sign-instagram {
-      margin-left: 48px;
+      position: relative;
+      padding-left: 24px;
+    }
+  }
+  .contact-list-item {
+    .sign-instagram {
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        margin-right: 24px;
+        width: 0px;
+        height: 40px;
+        border: 1px solid #b9b9b9;
+        left: 0;
+      }
     }
   }
   .contact-tel {
@@ -258,7 +274,7 @@ ul {
           rgba(17, 21, 24, 0.7),
           rgba(17, 21, 24, 0.7)
         ),
-        url(/image/footer_back_1680.jpg);
+        url(../image/footer_back_1680.jpg);
     }
   }
   .footer-title {
