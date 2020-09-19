@@ -104,8 +104,8 @@ ul {
 .footer-general {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.7)), to(rgba(17, 21, 24, 0.7))), url(../image/footer_back_320.png);
-  background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.7), rgba(17, 21, 24, 0.7)), url(../image/footer_back_320.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.8)), to(rgba(17, 21, 24, 0.8))), url(../image/footer_back_320.png);
+  background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.8), rgba(17, 21, 24, 0.8)), url(../image/footer_back_320.png);
 }
 
 .footer-title {
@@ -247,8 +247,8 @@ ul {
   }
   .footer-general {
     padding-bottom: 85px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.7)), to(rgba(17, 21, 24, 0.7))), url(../image/footer_back_768.jpg);
-    background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.7), rgba(17, 21, 24, 0.7)), url(../image/footer_back_768.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.8)), to(rgba(17, 21, 24, 0.8))), url(../image/footer_back_768.jpg);
+    background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.8), rgba(17, 21, 24, 0.8)), url(../image/footer_back_768.jpg);
   }
   .footer-title {
     padding-left: 40px;
@@ -337,12 +337,15 @@ ul {
 @media screen and (min-width: 1314px) {
   .container {
     max-width: 1314px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
   .container .footer-general {
     padding-top: 100px;
     padding-bottom: 88px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.7)), to(rgba(17, 21, 24, 0.7))), url(../image/footer_back_1680.jpg);
-    background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.7), rgba(17, 21, 24, 0.7)), url(../image/footer_back_1680.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 21, 24, 0.8)), to(rgba(17, 21, 24, 0.8))), url(../image/footer_back_1680.jpg);
+    background-image: linear-gradient(to bottom, rgba(17, 21, 24, 0.8), rgba(17, 21, 24, 0.8)), url(../image/footer_back_1680.jpg);
   }
   .footer-title {
     padding-bottom: 50px;
