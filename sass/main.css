@@ -235,7 +235,7 @@ ul {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -243,7 +243,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
   .footer-general {
     padding-bottom: 85px;
@@ -334,9 +334,9 @@ ul {
   }
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1314px) {
   .container {
-    width: 1680px;
+    max-width: 1680px;
   }
   .container .footer-general {
     padding-top: 100px;
